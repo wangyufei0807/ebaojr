@@ -20,6 +20,7 @@
 }
 .m-toparea .logo{
     float: left;
+    margin-top: 5px;
 }
 .m-toparea .nav{
     float: left;
@@ -57,4 +58,67 @@
 
 .m-toparea .logReg{
     float: right;
+    margin-top: 14px;
+}
+.m-toparea .logReg li{
+    float: left;
+    margin-left: 6px;
+}
+.m-toparea .logReg li.login a,.m-toparea .logReg li.reg a{
+    color: #fff;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 44px;
+    width: 71px;
+}
+.m-toparea .logReg li.login a{
+    background: #2a8cc9;
+}
+.m-toparea .logReg li.reg a{
+    background: #ff7200;
+}
+
+
+/* 底部样式 */
+.g-ft{
+    background: #ffffff;
+}
+.g-ft .ft-sitelink{
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.g-ft .ft-sitelink ul li{
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+}
+.g-ft .ft-bottom{
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 20px;
+}
+.g-ft .ft-bottom .manage-warn{
+    font-size: 14px;
+    line-height: 55px;
+    text-align: center;
+}
+.g-ft .ft-bottom .auth-link{
+    margin: 0 auto;
+    text-align: center;
+}
+.g-ft .ft-bottom .auth-link a{
+    display: inline-block;
+    margin: 0 6px;
+}
+.g-ft .ft-friendink{
+    text-align: center;
+    color: #999;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.g-ft .ft-friendink a{
+    color: #999;
+    font-size: 12px;
+    padding: 0 10px;
 }
