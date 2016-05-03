@@ -1,0 +1,82 @@
+/* banner -- 焦点图 */
+.m-banner .flexslider{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+.m-banner .flexslider .slides li{
+    height: 350px;
+}
+.m-banner .flexslider .flex-control-nav {
+    bottom: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.m-banner .flexslider .flex-control-nav li {
+    display: inline-block;
+    height: 15px;
+    margin: 0 3px;
+    width: 17px;
+}
+.m-banner .flexslider .flex-control-nav a {
+    background: rgba(0, 0, 0, 0) url("../images/index/dot_2.png") no-repeat scroll 0 0px;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 17px;
+}
+.m-banner .flexslider .flex-control-nav .flex-active {
+    background-position: 0 -15px;
+}
+.m-banner .mask-layer{
+    background: rgba(0, 0, 0, 0) url("../images/index/mask-layer-bg.png") repeat scroll 0 0;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: -328px;
+    width: 280px;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.m-banner .bounceInDown{
+    animation: 1s ease 0.2s normal both 1 running bounceInDown;
+}
+.m-banner .mask-layer-unlogin p{
+    font-size: 17px;
+    color: #ff7200;
+}
+.m-banner .mask-layer-unlogin .hd h1{
+    font-size: 40px;
+    color: #ff7200;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.m-banner .mask-layer-unlogin .hd .p1{
+    padding-top: 35px;
+}
+.m-banner .mask-layer-unlogin .hd .p2{
+    margin-bottom: 35px;
+}
+.m-banner .mask-layer-unlogin .ft{
+    margin-top: 15px;
+    text-align: right;
+}
+.m-banner .mask-layer-unlogin .ft a{
+    color: #2a8cc9;
+}
+.m-banner .mask-layer-unlogin .btn-join{
+    background: #ff8323 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    width: 100%;
+    border-bottom: 4px solid #e87114;
+}

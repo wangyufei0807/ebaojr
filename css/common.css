@@ -1,3 +1,15 @@
+/* 按钮组件 */
+.u-btn{
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0 none;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
 .wrap{
     width: 1240px;
     margin: 0 auto;
