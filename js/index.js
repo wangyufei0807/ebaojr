@@ -8,3 +8,12 @@ $('.flexslider').flexslider({
     controlNav: true,
     animationSpeed: 600
 });
+
+/* 新闻tab切换 */
+$(".tabmenu li").mousemove(function(){
+    $(".tabmenu li").removeClass("active");
+    $(this).addClass("active");
+    var index = $(this).index();
+    $(".xwdt .item").hide();
+    $(".xwdt .item").eq(index).show();
+})
