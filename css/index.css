@@ -333,7 +333,7 @@
     height: 34px;
     position: relative;
     vertical-align: middle;
-    width: 225px;
+    width: 210px;
 }
 .m-newbie .box .fr .pro-nr .d3 .p2 .progressBar{
     display: block;
@@ -518,6 +518,9 @@
 .m-news .box .ul-list li .jieshao h5{
     margin-bottom: 15px;
     margin-top: 5px;
+}
+.m-news .box .ul-list li .jieshao h5 a{
+    font-weight: normal;
 }
 .m-news .box .ul-list li .jieshao p{
     font-size: 12px;

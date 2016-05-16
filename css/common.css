@@ -1,3 +1,37 @@
+/*页面最底部风险提示*/
+.wenTip{
+    width: 100%;position: fixed;height: 40px;line-height: 40px;bottom: 0px;z-index:9999;
+}
+.wenTipBg{
+    background: #4b78a0;opacity: 0.8;filter:alpha(opacity=80);width:100%;height: 100%;position: absolute;left: 0px;top: 0px;
+}
+.wenTipText{
+    position: absolute;width:100%;line-height: 40px;color: #fff;font-size: 16px;text-align: center;
+}
+.wenTipClose{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url("../images/wenTip.png") no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+.wenTipSlide{
+    width: 84px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 8px;
+    background: url("../images/wenTipSlide.png") no-repeat;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    color: #fff;
+    left: -100%;
+    cursor: pointer;
+}
 /* 按钮组件 */
 .u-btn{
     border-radius: 5px;
@@ -10,29 +44,29 @@
     vertical-align: middle;
 }
 
-/* 橙色 */
-.u-btn-orange{
-    background-color: #ff8323;
-}
-/* 蓝色 */
+/* 蓝色 预告 */
 .u-btn-blue{
     background-color: #2a8cc9;
 }
-/* 粉色 */
+/* 橙色 立即投资*/
+.u-btn-orange{
+    background-color: #ff8323;
+}
+/* 粉色 满标*/
 .u-btn-pink{
     background-color: #ffdabd;
 }
-/* 浅蓝 */
+/* 浅蓝 流标*/
 .u-btn-cblue{
     background-color: #bfdcef;
 }
-/* 灰色 */
-.u-btn-gray{
-    background-color: #d5d5d5;
-}
-/* 深蓝 */
+/* 深蓝 还款中*/
 .u-btn-sblue{
     background-color: #454985;
+}
+/* 灰色 已还清*/
+.u-btn-gray{
+    background-color: #d5d5d5;
 }
 
 /* 文字状态组件 */
