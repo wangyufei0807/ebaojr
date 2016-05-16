@@ -91,7 +91,9 @@
 }
 
 
-
+.g-doc{
+    min-width: 1240px;
+}
 .wrap{
     width: 1240px;
     margin: 0 auto;
