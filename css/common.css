@@ -323,10 +323,6 @@
 .m-paging a, .m-paging span.current {
     margin-left: 10px;
 }
-.m-paging a.prev, .m-paging a.next {
-    padding-left: 0;
-    padding-right: 0;
-}
 .m-paging a.prev .prevL {
     background: rgba(0, 0, 0, 0) url("../images/common/page_left.png") no-repeat scroll 0 0;
     border-right: 1px solid #d4d4d4;
