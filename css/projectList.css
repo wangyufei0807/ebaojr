@@ -157,3 +157,21 @@
     margin-bottom: 60px;
     text-align: center;
 }
+
+/* 新手特权 */
+.m-tequan{
+    background: #90c1df url("../images/projectlist/new_tequan.png") no-repeat left top;
+    height: 100px;
+    padding-left: 310px;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.m-tequan h4{
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.m-tequan p{
+    line-height: 18px;
+}
