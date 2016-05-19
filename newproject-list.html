@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/projectList.css">
+    <link rel="stylesheet" href="css/projectlist.css">
 </head>
 <body>
 <div class="g-doc">
@@ -74,15 +74,13 @@
                     <p>2.活动期间，符合活动资格的用户可不限次数享受新手理财计划（活动时间：2015-09-01至2015-09-30）；</p>
                     <p>3.体验金投资金额不可参与此次活动。</p>
                 </div>
+
                 <!-- 面包屑导航 -->
-                <div class="m-crumb">
+                <div class="m-crumb xinshou">
                     <span><i class="icon-weizhi"></i>我的位置：</span>
-                    <a href="#">我要投资</a> &gt; <a href="#">直投项目</a>
+                    <a href="#">我要投资</a> &gt; <a href="#" class="f-colorblue">新手项目</a>
                 </div>
-
                 <div class="m-projectBox">
-
-
                     <!-- 项目列表 -->
                     <div class="m-projectList">
                         <div class="box">
@@ -146,18 +144,13 @@
 
                         <!-- 分页 -->
                         <div class="m-pagingbox">
-                            <div class="m-paging">
-                                <a href="javascript:void(0)" class="prev f-cb">
-                                    <span class="prevL"></span>
-                                    <span class="prevR">上一页</span>
-                                </a>
-                                <a href="javascript:void(0)">1</a>
-                                <span class="current">2</span>
+                            <div id="projectListPagination" class="m-paging pagination">
+                                <span class="current prev" style="margin-right: 0px;">上一页</span>
+                                <span class="current">1</span>
+                                <a href="javascript:void(0)">2</a>
                                 <a href="javascript:void(0)">3</a>
-                                <a href="javascript:void(0)" class="next">
-                                    <span class="nextL">下一页</span>
-                                    <span class="nextR"></span>
-                                </a>
+                                <a href="javascript:void(0)">4</a>
+                                <a href="javascript:void(0)" class="next">下一页</a>
                             </div>
                         </div>
                     </div>
