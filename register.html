@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册 - 颐宝金融</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/logreg.css">
+</head>
+<body>
+<div class="g-doc">
+    <div class="g-hd">
+        <div class="m-topbar">
+            <div class="wrap">
+                <div class="f-fl">
+                    <a href="#" class="kefu"><i class="icon-kefu"></i>在线客服</a>
+                    <span><i class="icon-kftel"></i>客服电话 400-699-2677  (9:00-17:30)</span>
+                </div>
+                <div class="f-fr">
+                    <a href="#"><i class="icon-wenhao"></i>帮助中心</a>
+                    <a href="#" class="zhiyin"><i class="icon-zhiyin"></i>新手指引</a>
+                </div>
+            </div>
+        </div>
+        <div class="m-toparea">
+            <div class="wrap f-cb">
+                <div class="logo"><a href="/"><img src="images/logo.png"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="g-bd">
+        <div class="m-logreg">
+            <div class="wrap">
+                <div class="m-login box">
+                    <div class="tit">
+                        <a href="#" class="link"><span class="f-colorblue">已有账号?</span> <span class="f-colororange">登录</span></a>
+                        <h1>欢迎会员注册</h1>
+                    </div>
+                    <div class="bd">
+                        <div class="ui-form">
+                            <form id="registerForm" novalidate="novalidate">
+                                <div class="formItem">
+                                    <label class="label"><span class="required"></span>用户名：</label>
+                                    <input type="text" autocomplete="off" placeholder="请输入用户名" name="account" class="ui-ipt error">
+                                    <span class="ipt-err"><label for="account" class="error">用户名不能为空</label></span>
+                                </div>
+                                <div class="formItem">
+                                    <label class="label"><span class="required"></span>密码：</label>
+                                    <input type="text" autocomplete="off" placeholder="请输入密码" name="password" id="password" class="ui-ipt error">
+                                    <span class="ipt-err"><label for="password" class="error"></label></span>
+                                </div>
+                                <div class="formItem">
+                                    <label class="label"><span class="required"></span>确认密码：</label>
+                                    <input type="text" autocomplete="off" placeholder="请输入确认密码" name="rePassword" class="ui-ipt error">
+                                    <span class="ipt-err"><label for="rePassword" class="error"></label></span>
+                                </div>
+                                <div class="formItem">
+                                    <label class="label"><span class="required"></span>手机号码：</label>
+                                    <input type="text" autocomplete="off" placeholder="请输入手机号码" name="phone" class="ui-ipt error">
+                                    <span class="ipt-err"><label for="phone" class="error"></label></span>
+                                </div>
+                                <div class="formItem f-cb">
+                                    <label class="label"><span class="required"></span>短信验证码：</label>
+                                    <input type="text" autocomplete="off" placeholder="请输入验证码" name="phonecode" class="ui-ipt ui-iptCode f-fl error">
+                                    <a class="getPhoneCode" href="#">获取短信验证码</a>
+                                    <span class="ipt-err"><label for="phonecode" class="error"></label></span>
+                                </div>
+                                <div style="padding-bottom:20px" class="formItem f-cb">
+                                    <label class="label"><span class="required"></span>验证码：</label>
+                                    <input type="text" class="ui-ipt ui-iptCode f-fl error" autocomplete="off" value="" name="verify" placeholder="验证码">
+                                    <a class="refreshCode f-fl"><img align="absMiddle" class="imgcode" src="images/logreg/varify.png" title="点击刷新图片校验码"></a>
+                                    <a class="refreshCode2 f-fl">看不清？换图片</a>
+                                    <span class="ipt-err"><label for="verify" class="error"></label></span>
+                                </div>
+                                <div style="padding-bottom:15px" class="formItem f-cb">
+                                    <label class="label"><span class="required"></span></label>
+                                    <label>
+                                        <input type="checkbox" name="ok" id="ok" value="ON" checked="checked">
+                                        <span id="regProtocol">同意<a href="">《投牛网服务协议》</a></span></label>
+
+                                    <p class="security"><i class="icon-baozhang"></i><span>您的信息已使用SSL加密技术，数据传输安全</span></p>
+                                </div>
+                                <div style="padding-bottom:0px" class="formItem">
+                                    <input type="submit" value="完成注册" class="u-btn u-btn-orange" id="subBtn">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="m-wxts">
+                        <p>温馨提示：</p>
+                        <p class="f-ti2">申请借款的过程中，投牛官方及工作人员不会以电话、短信、邮件等任何方式，以担保费、咨询费等任何名义向您收取任何费用。请您务必知晓，谨防任何组织及个人的诈骗信息。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="g-ft2">
+        <div class="wrap">
+            <p>
+                <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">隐私声明</a> | <a href="#">法律声明</a>
+            </p>
+            <p>&copy; 2013-2015 颐宝金融 All rights reserved 东亮颐宝金融(厦门)资产管理有限公司</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</body>
+</html>
