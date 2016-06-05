@@ -1,0 +1,245 @@
+.m-safeinfo .renzheng{
+    position: relative;
+    margin-top: 50px;
+}
+.m-safeinfo .renzheng .rzbox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 507px;
+    height: 120px;
+    background: url("../../images/user/safeinfo/safeinfo_img.png") no-repeat;
+    position: relative;
+}
+.m-safeinfo .renzheng .rzbox .phone{
+    display: inline-block;
+    width: 32px;
+    height: 51px;
+    background: url("../../images/user/safeinfo/icon-phone.png") no-repeat;
+    top: 32px;
+    left: 43px;
+    position: absolute;
+}
+.m-safeinfo .renzheng .rzbox .phone i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/duigou.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+.m-safeinfo .renzheng .rzbox .phone-gray{
+    display: inline-block;
+    width: 32px;
+    height: 51px;
+    background: url("../../images/user/safeinfo/icon-phonegray.png") no-repeat;
+    top: 32px;
+    left: 43px;
+    position: absolute;
+}
+.m-safeinfo .renzheng .rzbox .phone-gray i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/chahao.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+.m-safeinfo .renzheng .rzbox .card{
+    display: inline-block;
+    width: 53px;
+    height: 37px;
+    background: url("../../images/user/safeinfo/icon-card.png") no-repeat;
+    top: 42px;
+    left: 222px;
+    position: absolute;
+}
+
+.m-safeinfo .renzheng .rzbox .card i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/duigou.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+.m-safeinfo .renzheng .rzbox .card-gray{
+    display: inline-block;
+    width: 53px;
+    height: 37px;
+    background: url("../../images/user/safeinfo/icon-cardgray.png") no-repeat;
+    top: 42px;
+    left: 222px;
+    position: absolute;
+}
+.m-safeinfo .renzheng .rzbox .card-gray i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/chahao.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+
+.m-safeinfo .renzheng .rzbox .email{
+    display: inline-block;
+    width: 51px;
+    height: 37px;
+    background: url("../../images/user/safeinfo/icon-email.png") no-repeat;
+    top: 42px;
+    left: 420px;
+    position: absolute;
+}
+
+.m-safeinfo .renzheng .rzbox .email i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/duigou.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+.m-safeinfo .renzheng .rzbox .email-gray{
+    display: inline-block;
+    width: 51px;
+    height: 37px;
+    background: url("../../images/user/safeinfo/icon-emailgray.png") no-repeat;
+    top: 42px;
+    left: 420px;
+    position: absolute;
+}
+.m-safeinfo .renzheng .rzbox .email-gray i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url("../../images/user/safeinfo/chahao.png") no-repeat;
+    top: -6px;
+    right: -7px;
+}
+
+.m-safeinfo .renzheng .rzwenzi{
+    text-align: center;
+    font-size: 20px;
+    color: #2a8cc9;
+}
+.m-safeinfo .renzheng .rzwenzi .s1{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+}
+.m-safeinfo .renzheng .rzwenzi .s2{
+    position: absolute;
+    top: 140px;
+    left: 315px;
+}
+.m-safeinfo .renzheng .rzwenzi .s3{
+    position: absolute;
+    top: 140px;
+    left: 528px;
+}
+
+.ucbasmain {
+    color: #4c4848;
+    margin-top: 80px;
+}
+.ucbasmain a {
+    color: #00afeb;
+}
+.ucbasmain em{
+    font-weight: normal;
+}
+.ucbasmain li {
+    border-top: 1px solid #d7dade;
+    height: 55px;
+    line-height: 55px;
+    overflow: hidden;
+}
+.ucbasmain li:last-child {
+    border-bottom: medium none;
+}
+.ucbasmain span {
+    display: inline-block;
+    width: 248px;
+}
+.ucbasmain span.ucbas-state {
+    margin-left: 48px;
+    width: 190px;
+}
+.ucbasmain li span i.uyz-icon-1, .ucbasmain li span i.uyz-icon-2, .ucbasmain li span i.uyz-icon-3, .ucbasmain li span i.uybas-icon {
+    display: inline-block;
+    height: 33px;
+    vertical-align: middle;
+    width: 45px;
+}
+.ucbasmain li span i.uyz-icon-1 {
+    background-position: 11px 6px;
+}
+.ucbasmain li span i.uyz-icon-2 {
+    background-position: -44px 5px;
+}
+.ucbasmain li span i.uyz-icon-3 {
+    background-position: -93px 8px;
+}
+.ucbasmain li span i.uybas-icon {
+    background: rgba(0, 0, 0, 0) url("/static/images/ucenter/safeinfo/ucbas-icon.png") no-repeat scroll 0 0;
+}
+.ucbasmain li span i.ucbas-icon-1, .ucbasmain li span i.ucbas-icon-2, .ucbasmain li span i.ucbas-icon-3 {
+    display: inline-block;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.ucbasmain .icon-phone{
+    display: inline-block;
+    width: 13px;
+    height: 19px;
+    background: url("../../images/user/icon-phone.png") no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.ucbasmain .icon-idcar{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: url("../../images/user/icon-idcar.png") no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.ucbasmain .icon-email{
+    display: inline-block;
+    width: 19px;
+    height: 14px;
+    background: url("../../images/user/icon-email.png") no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.ucbas-icon-1{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../images/user/safeinfo/icon-tanhao.png") no-repeat;
+}
+.ucbas-icon-2{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../images/user/safeinfo/chahao.png") no-repeat;
+}
+.ucbas-icon-3{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../../images/user/safeinfo/duigou.png") no-repeat;
+}

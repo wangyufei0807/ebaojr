@@ -1,0 +1,132 @@
+.ipt-err {
+    color: #e9460b;
+    font-size: 12px;
+    left: 0px;
+    position: absolute;
+    top: 40px;
+}
+.ipt-err label.error {
+    text-align: left;
+}
+
+.editphone{
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.formitem{
+    margin-bottom: 25px;
+}
+
+.editphone .lab{
+    float: left;
+    width: 130px;
+    text-align: right;
+    margin-top: 10px;
+}
+.editphone .ipt{
+    float: left;
+    position: relative;
+}
+.editphone .phonecode{
+    width: 90px;
+    float: left;
+}
+.getPhoneCode{
+    width: 110px;
+    height: 37px;
+    display: inline-block;
+    background-color: #2a8cc9;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+    float: left;
+}
+.getPhoneCode:hover{
+    color: #ffffff;
+}
+.u-ipt{
+    width:270px;
+    padding:5px;
+    height:25px;
+    border:1px solid #d7d8d8;
+    line-height:17px;
+    font-size:14px;
+    color:#9b9b9b;
+    background:#fff;
+}
+.disabled{
+    background-color: #dfdfdf;
+}
+.ssl{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #999999;
+}
+.ssl .icon-ensure{
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background: url("../../images/user/icon-ensure.png") no-repeat;
+    vertical-align: middle;
+}
+.editbtn{
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+.edit_phone_arrow{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../../images/user/safeinfo/edit_phone_arrow.png") no-repeat;
+    height: 7px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.success{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.success .icon-duigou{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url("../../images/user/icon-success.png");
+    background-size: 55px 55px;
+    float: left;
+    margin-left: 60px;
+}
+.success .tishi{
+    float: left;
+    margin-left: 15px;
+}
+.success .tishi .p1{
+    font-size: 24px;
+    color: #00afeb;
+    font-weight: bold;
+    line-height: 40px;
+}
+.success .tishi .p2{
+    margin-top: 10px;
+    color: #4c4949;
+}
+.bottom{
+    position: absolute;
+    bottom: 15px;
+    left: 125px;
+    font-size: 12px;
+    color: #999999;
+}

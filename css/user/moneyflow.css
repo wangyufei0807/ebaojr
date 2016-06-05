@@ -1,0 +1,112 @@
+.fundsOpts {
+    height: 80px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.fundsOpts li {
+    float: left;
+}
+.fundsOpts li a{
+    color: #00afeb;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+}
+.fundsOpts li a.cur{
+    border-radius: 3px;
+    background-color: #ff7200;
+    color: #ffffff;
+}
+.fundsOpts li.liOne {
+    line-height: 26px;
+    text-align: left;
+    width: 80px;
+}
+.fundsOpts li.liDate {
+    margin-left: 10px;
+    padding-top: 0;
+    position: relative;
+}
+.fundsDate .u-btn {
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px;
+    border: none;
+    color: #ffffff;
+}
+.fundsDate .time {
+    border: 1px solid #abadb3;
+    height: 26px;
+    width: 200px;
+}
+.fundsType{
+    margin-bottom: 15px;
+}
+
+.fundsListTit {
+    background: #f7f8fa none repeat scroll 0 0;
+    height: 40px;
+}
+.fundsListTit li {
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem {
+    height: 50px;
+    line-height: 50px;
+}
+.fundsListItem.even {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeef;
+}
+.fundsListItem li {
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem li a {
+    color: #316fb1;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mytable .tableListTit li.liOne{
+    text-align: center;
+    line-height: 40px;
+}
+.mytable{
+    width: 100%;
+    color: #4c4848;
+}
+.mytable li.liOne{
+    text-align: center;
+    line-height: 50px;
+}
+.mytable .liOne{
+    width: 100px;
+}
+.mytable .liTwo{
+    width: 223px;
+}
+.mytable tr td{
+    border-bottom: 1px solid #ebecee;
+}
+.mytable tr:hover{
+    background-color: #e5f7fd;
+}
+.m-pagingbox{
+    text-align: right;
+    margin-top: 30px;
+}

@@ -1,0 +1,51 @@
+.alldel{
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px dotted #999999;
+    padding-left: 33px;
+}
+.alldel input{
+    margin-right: 10px;
+}
+
+.msglist li{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #999999;
+    padding-left: 33px;
+    position: relative;
+}
+.msglist li .msg{
+    padding-left: 10px;
+    width: 550px;
+}
+.msglist li .msg .info{
+    font-size: 12px;
+    color: #999999;
+    margin-top: 10px;
+}
+.msglist li .msg .time{
+    font-size: 12px;
+    color: #999999;
+}
+.msglist li .biaoti{
+    font-size: 16px;
+    color: #4c4848;
+}
+.msglist li .u-btn{
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0px;
+    right: 10px;
+    top: 30px;
+    color: #ffffff;
+}
+.m-pagingbox{
+    text-align: right;
+    margin-top: 10px;
+}
+.checkbox{
+    margin-top: 3px;
+}

@@ -1,0 +1,413 @@
+.g-mnc{
+    position: relative;
+}
+.f-fs16{
+    font-size: 16px;
+}
+
+.dsf{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+}
+.dsf p{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: #d5e8f7;
+    font-size: 12px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.topbox{
+    padding-top: 60px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.topbox .d2{
+    margin-top: 35px;
+}
+.topbox .d2 .yzlx{
+    float: left;
+    width: 50%;
+}
+.topbox .d2 .dslx{
+    float: left;
+    width: 50%;
+}
+.topbox .d2 .n-p1{
+    margin-bottom: 10px;
+}
+.topbox .d2 .n-p2{
+    color: #ff7200;
+    font-size: 24px;
+}
+.topbox .d2 .btn{
+    margin-top: 40px;
+}
+.topbox .d2 .btn a{
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+}
+
+.t-p1{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.t-p2{
+    font-size: 32px;
+    color: #ff7200;
+    font-weight: bold;
+}
+
+.topbox .balance{
+    width: 380px;
+    float: left;
+    border-right: 1px solid #ebecee;
+}
+.topbox .asset{
+    float: left;
+    margin-left: 50px;
+    width: 315px;
+}
+.topbox .asset .list{
+    margin-top: 35px;
+}
+
+.topbox .asset .list li{
+    float: left;
+    width: 100px;
+    padding-left: 55px;
+    margin-bottom: 35px;
+    height: 50px;
+}
+.topbox .asset .list li .p1{
+    margin-bottom: 5px;
+}
+.topbox .asset .list li .p2{
+    font-size: 20px;
+    color: #ff7200;
+}
+.topbox .asset .list li.li1{
+    background: url("../../images/user/index/icon-asset01.png") no-repeat;
+}
+.topbox .asset .list li.li2{
+    background: url("../../images/user/index/icon-asset02.png") no-repeat;
+}
+.topbox .asset .list li.li3{
+    background: url("../../images/user/index/icon-asset03.png") no-repeat;
+    margin-bottom: 0px;
+}
+.topbox .asset .list li.li4{
+    background: url("../../images/user/index/icon-asset04.png") no-repeat;
+    margin-bottom: 0px;
+}
+
+.near-future{
+    border-bottom: 1px solid #f3f3f3;
+    padding: 30px 55px 35px;
+}
+.near-future h3{
+    font-size: 16px;
+    height: 18px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.near-future h3 a{
+    float: right;
+    font-size: 14px;
+    color: #999;
+}
+.chart-area{
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    width: 750px;
+}
+
+.near-future .legend-list {
+    margin-top: 10px;
+    text-align: right;
+}
+.near-future .legend-list span {
+    color: #999;
+    display: inline-block;
+    margin-left: 40px;
+}
+.near-future .legend-list span i {
+    background-color: #dadada;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 10px;
+}
+.near-future .legend-list span i.color {
+    background-color: #43caf6;
+}
+
+.column-2 {
+    overflow: hidden;
+    padding: 30px 20px;
+}
+.column-2 .column-left {
+    float: left;
+    width: 375px;
+}
+.column-2 .column-left h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.column-2 .column-left h3 a {
+    float: right;
+    font-size: 14px;
+}
+.column-2 .column-left .pie {
+    position: relative;
+}
+.column-2 .column-left .chart-pie {
+    height: 270px;
+    margin: 0 auto;
+    width: 270px;
+}
+.column-2 .column-left .pie-legend-top {
+    left: 50%;
+    margin-left: -110px;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    width: 220px;
+}
+.column-left .pie-legend-top .number {
+    font-family: Arial;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.column-left .pie-legend-top .number small {
+    font-size: 18px;
+    margin-left: 3px;
+}
+.column-left .pie-legend-top .muted {
+    font-size: 14px;
+}
+.column-left .pie-legend-top .muted i {
+    background-color: #dedede;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
+}
+.column-left .pie-legend-top .number-color {
+    border-top: 1px solid #f5f5f5;
+    color: #00afeb;
+    font-family: Arial;
+    font-size: 24px;
+    margin: 15px auto 0;
+    padding-top: 10px;
+    width: 170px;
+}
+.column-left .pie-legend-bottom {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.column-left .pie-legend-bottom .legend-left {
+    float: left;
+    width: 187px;
+}
+.column-left .pie-legend-bottom .legend-right {
+    float: left;
+    width: 187px;
+}
+.column-left .pie-legend-bottom .number {
+    color: #666;
+    font-family: Arial;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.column-left .pie-legend-bottom .number small {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.column-left .pie-legend-bottom .muted {
+    font-size: 14px;
+}
+.column-left .pie-legend-bottom .muted i {
+    background-color: #43caf6;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 10px;
+}
+.column-left .pie-legend-bottom .legend-right .muted i {
+    background-color: #f67143;
+}
+.column-2 .column-right {
+    float: right;
+    margin-left: 40px;
+    width: 390px;
+}
+.column-2 .column-right h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-weight: normal;
+}
+.column-2 .column-right h3 .muted {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.column-2 .column-right h3 a {
+    float: right;
+    font-size: 14px;
+}
+.column-right .own-money {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+.column-right .own-money .muted {
+    font-size: 16px;
+}
+.column-right .own-money .float-right {
+    font-family: Arial;
+    font-size: 24px;
+}
+.column-right .money-recorde {
+    position: relative;
+}
+.column-right .money-recorde::after {
+    background-color: #fff;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.column-right .money-recorde dl {
+    border-left: 3px solid #dedede;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.column-right .money-recorde dl h5 {
+    font-size: 14px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+}
+.column-right .money-recorde dl h5 span {
+    float: right;
+    font-family: Arial;
+    font-size: 16px;
+}
+.column-right .money-recorde dl .muted {
+}
+.column-right .money-recorde dl i {
+    border: 2px solid #dedede;
+    border-radius: 100%;
+    height: 10px;
+    left: -28px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+.column-right .money-recorde dl dt {
+    margin-bottom: 20px;
+    position: relative;
+}
+.column-right .money-recorde dl dd {
+    margin-bottom: 20px;
+    position: relative;
+}
+.column-right .money-recorde dl dt i {
+    background-color: #fe5000;
+}
+.column-right .money-recorde dl dd i {
+    background-color: #50d98a;
+}
+.column-right .money-recorde dl dt h5 span {
+    color: #fe5000;
+}
+.column-right .money-recorde dl dd h5 span {
+    color: #50d98a;
+}
+
+.mytable .tableListTit li.liOne{
+    text-align: center;
+    line-height: 40px;
+}
+
+.fundsListTit {
+    background: #f7f8fa none repeat scroll 0 0;
+    height: 40px;
+}
+.fundsListTit li {
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem {
+    height: 50px;
+    line-height: 50px;
+}
+.fundsListItem.even {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeef;
+}
+.fundsListItem li {
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem li a {
+    color: #316fb1;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mytable{
+    width: 100%;
+    color: #4c4848;
+    margin-top: 15px;
+}
+.mytable li.liOne{
+    text-align: center;
+    line-height: 50px;
+}
+.mytable .liOne{
+    width: 50%;
+}
+.mytable .liTwo{
+    width: 25%;
+}
+.mytable .liThree{
+    width: 25%;
+}
+.mytable tr td{
+    border-bottom: 1px solid #ebecee;
+}
+.mytable tr:hover{
+    background-color: #e5f7fd;
+}

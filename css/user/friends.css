@@ -1,0 +1,174 @@
+.f16{
+    font-size: 16px;
+}
+.m-friends .banner{
+    margin-top: 10px;
+}
+.m-friends .banner img{
+    width: 100%;
+}
+.ucfri-wra {
+    color: #999;
+    font-size: 12px;
+    margin: 0 auto;
+    min-height: 365px;
+    position: relative;
+    width: 700px;
+    padding-top: 15px;
+}
+.ucfri-wra p {
+    margin-bottom: 15px;
+}
+.ucfri-wra p.frise {
+    color: #00afeb;
+}
+.ucfri-wra p.frimb10 {
+    margin-bottom: 10px;
+}
+.ucfri-wra p.frimb5 {
+    margin-bottom: 5px;
+}
+.fritext p {
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.frifrom input.friftext {
+    color: #999;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 1em;
+    width: 403px;
+    border: 1px solid #d7d8d8;
+}
+.frifbut {
+    background-color: #e9460b;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 105px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ucfri-wra p.fricon i {
+    display: inline-block;
+    height: 28px;
+    margin: 0 10px 0 5px;
+    vertical-align: middle;
+    width: 28px;
+}
+.ucfri-wra p.fricon i.fritu-1 {
+    background: rgba(0, 0, 0, 0) url("../../images/user/fricon-1.jpg") no-repeat scroll 0 0;
+}
+.ucfri-wra p.fricon i.fritu-2 {
+    background: rgba(0, 0, 0, 0) url("../../images/user/fricon-2.jpg") no-repeat scroll 0 0;
+}
+#code {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+.fundsListTit {
+    background: #f7f8fa none repeat scroll 0 0;
+    height: 40px;
+}
+.fundsListTit li {
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem {
+    height: 50px;
+    line-height: 50px;
+}
+.fundsListItem.even {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeef;
+}
+.fundsListItem li {
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    text-align: center;
+    width: 140px;
+}
+.fundsListItem li a {
+    color: #316fb1;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mytable .tableListTit li.liOne{
+    text-align: center;
+    line-height: 40px;
+}
+.mytable{
+    width: 100%;
+    color: #4c4848;
+    margin-top: 15px;
+}
+.mytable li.liOne{
+    text-align: center;
+    line-height: 50px;
+}
+.mytable .liOne{
+    width: 20%;
+}
+.mytable .liTwo{
+    width: 15%;
+}
+.mytable .liThree{
+    width: 15%;
+}
+.mytable .liFour{
+    width: 15%;
+}
+.mytable .liFive{
+    width: 15%;
+}
+.mytable .liSix{
+    width: 15%;
+}
+.mytable tr td{
+    border-bottom: 1px solid #ebecee;
+}
+.mytable tr:hover{
+    background-color: #e5f7fd;
+}
+.m-pagingbox{
+    text-align: right;
+    margin-top: 30px;
+}
+.mytable .u-btn{
+    padding: 0px;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    color: #ffffff;
+
+}
+.nodata td{
+    height: 300px;
+}
+.mytable .icon-nodate{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../../images/user/icon-nodata.png") no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.mytable .nodata p{
+    text-align: center;
+    color: #00afeb;
+    font-size: 16px;
+}

@@ -1,0 +1,19 @@
+.layui-layer-title{
+    background-color: #2a8cc9;
+    color: #ffffff;
+    height: 38px;
+    line-height: 38px;
+}
+.layui-layer-setwin{
+    top: 0px;
+    right: 5px;
+}
+.layui-layer-setwin .layui-layer-close1{
+    width: 38px;
+    height: 38px;
+    background: url("../../images/user/safeinfo/close.png") no-repeat;
+    display: inline-block;
+}
+.layui-layer-setwin .layui-layer-close1:hover{
+    background: url("../../images/user/safeinfo/close_hover.png") no-repeat;
+}

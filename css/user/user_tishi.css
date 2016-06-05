@@ -1,0 +1,65 @@
+/* 提示 */
+body{
+    background: url("../../images/logreg/logreg_bg.png");
+}
+
+.m-tishi .box{
+    width: 678px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m-tishi .box .tit{
+    height: 59px;
+    line-height: 59px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.m-tishi .box .tit h1{
+    font-size: 24px;
+}
+.m-tishi .box .tit .link{
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.m-tishi .box .bd{
+    padding-bottom: 30px;
+
+    padding-top: 16px;
+}
+
+.m-tishi .box .bd .success{
+    text-align: center;
+}
+.m-tishi .box .bd .success p{
+    font-size: 28px;
+    color: #ff8323;
+    margin-top: 55px;
+}
+.m-tishi .box .bd .fail{
+    text-align: center;
+}
+.m-tishi .box .bd .fail p{
+    font-size: 28px;
+    color: #999999;
+    margin-top: 55px;
+}
+.m-tishi .box .bd .btn{
+    text-align: center;
+    padding-top: 50px;
+}
+.m-tishi .box .bd .btn .u-btn{
+    width: 172px;
+    height: 38px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px;
+}
