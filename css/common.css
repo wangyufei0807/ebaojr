@@ -91,9 +91,15 @@
 }
 
 
+<<<<<<< Updated upstream
 
+=======
+.g-doc{
+    min-width: 1100px;
+}
+>>>>>>> Stashed changes
 .wrap{
-    width: 1240px;
+    width: 1100px;
     margin: 0 auto;
 }
 /* 头部样式 */
@@ -222,7 +228,7 @@
 }
 .m-toparea .logReg .d1{
      float: left;
-     width: 160px;
+     width: 240px;
      margin-left: 15px;
 }
 .m-toparea .logReg .d1 p{
@@ -231,17 +237,12 @@
 .m-toparea .logReg .d1 p span{
     color: #ff8323;
 }
-.m-toparea .logReg .d2{
-    float: left;
-    margin-left: 15px;
-}
-.m-toparea .logReg .d2 p{
-    line-height: 20px;
-}
-.m-toparea .logReg .d2 a{
+.m-toparea .logReg .d1 p .chongzhi{
     color: #2a8cc9;
 }
-
+.m-toparea .logReg .d1 p .tuichu{
+    color: #ccc;
+}
 
 /* 底部样式 */
 .g-ft{
@@ -287,6 +288,90 @@
     padding: 0 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+/* 底部2 */
+.g-ft2{
+    background: #ffffff;
+    height: 62px;
+    position: static;
+    width: 100%;
+    padding-top: 25px;
+}
+.g-ft2 p{
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+}
+.g-ft2 p a{
+    color: #999999;
+}
+
+/* 分页 */
+.m-paging {
+    display: inline-block;
+}
+.m-paging a {
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-paging span.current {
+    background: #ff6f3d;
+    border: 1px solid #ff6f3d;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-paging a:hover{
+    border: 1px solid #ff6f3d;
+}
+.m-paging a, .m-paging span.current {
+    margin-left: 10px;
+}
+.m-paging a.prev .prevL {
+    background: rgba(0, 0, 0, 0) url("../images/common/page_left.png") no-repeat scroll 0 0;
+    border-right: 1px solid #d4d4d4;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-top: 3px;
+    width: 20px;
+}
+.m-paging a.prev .prevR {
+    display: inline-block;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-paging a.next .nextL {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-paging a.next .nextR {
+    background: rgba(0, 0, 0, 0) url("../images/common/page_right.png") no-repeat scroll 0 0;
+    border-left: 1px solid #d4d4d4;
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-top: 3px;
+    width: 20px;
+}
+
+>>>>>>> Stashed changes
 /* 进度条 */
 .item-rate{
     font-family: Arial;
