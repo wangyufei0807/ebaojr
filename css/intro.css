@@ -1,0 +1,56 @@
+body{
+    background: url("../images/logreg/logreg_bg.png");
+}
+.m-intro{
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.m-intro .wrap{
+    width: 999px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m-intro .section-1 .tit{
+    height: 55px;
+    background-color: #fff0e3;
+    line-height: 55px;
+}
+.m-intro .section-1 .tit h1{
+    color: #ff7200;
+    font-size: 26px;
+    padding-left: 65px;
+    background: url("../images/intro/line.png") no-repeat 39px center;
+}
+.section-2{
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 311px;
+}
+.section-2 .item{
+    border-right: 1px solid #e6e6e6;
+    float: left;
+    height: 285px;
+    text-align: center;
+    width: 332px;
+    padding-top: 30px;
+}
+.section-2 .item.last{
+    border: none;
+}
+.section-2 .p1 {
+    color: silver;
+    font-size: 18px;
+    height: 32px;
+    padding-top: 33px;
+}
+.section-2 .p2 {
+    color: #00afeb;
+    font-size: 26px;
+    height: 46px;
+}
+.section-2 .p3 {
+    color: #5d5d5d;
+    font-size: 14px;
+    height: 51px;
+    line-height: 22px;
+}

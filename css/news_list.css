@@ -1,0 +1,99 @@
+.ui-banner{
+	width: 100%;
+	height: 162px;
+	margin-bottom: 40px;
+	background: url("../images/about/banner.jpg") center no-repeat;
+}
+.newsmian{
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.ui-aboutnav{
+	position: absolute;
+	left: 1px;
+	top: 0;
+	width: 241px;
+	background-color: #f6fafd;
+}
+.ui-aboutimg img{
+	width: 255px;
+	height: 77px;
+	margin-top: -11px;
+	overflow: hidden;
+}
+.aboutnav{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f6fafd;
+}
+.aboutnav li{
+	width: 100%;
+	text-align: center;
+}
+.aboutnav li a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #2a8cc9;
+	font-size: 18px;
+	border-left: 3px solid #f6fafd;
+	border-top: 1px solid #f6fafd;
+	border-bottom: 1px solid #f6fafd;
+}
+.aboutnav li a:hover,.aboutnav li a.aboutnavcur{
+	background-color: #fff;
+	border-left: 3px solid #ff7200;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+}
+.newsbox{
+	width: 855px;
+	min-height: 650px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	border-left: 243px solid #f6fafd;
+}
+.newswrap{
+	width: 730px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+.newsit img{
+	width: 730px;
+	height: 75px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.newsbox .meun li{
+    float: left;
+}
+.newsbox .meun li a{
+    width: 164px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #d4d4d4;
+    color: #2a8cc9;
+    font-size: 22px;
+    margin-right: -2px;
+}
+.newsbox .meun li a:hover,.newsbox .meun li a.cur{
+    background-color: #2a8cc9;
+    color: #ffffff;
+    border-color: #2a8cc9;
+}
+.newsbox .list{
+    padding-top: 40px;
+}
+.newsbox .list li{
+    margin-bottom: 18px;
+}
+.newsbox .list li .time{
+    float: right;
+}

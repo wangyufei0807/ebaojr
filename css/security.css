@@ -1,0 +1,16 @@
+.m-security .banner{
+    height: 459px;
+    background: url("../images/security/banner.png") no-repeat center top;
+}
+.m-security .img1{
+    background: #eeebed;
+}
+.m-security .img2{
+    background: url("../images/security/bg.png");
+}
+.m-security .img3{
+    background: #f0eeef;
+}
+.m-security .img4{
+    background: url("../images/security/bg.png");
+}

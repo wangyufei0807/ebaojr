@@ -1,0 +1,22 @@
+body{
+    background: #ffffff;
+}
+.m-shenglibao{
+    margin-bottom: 30px;
+}
+.banner{
+    height: 407px;
+    background: url("../images/shenglibao/banner.jpg") no-repeat center;
+}
+.banner .wrap{
+    height: 407px;
+}
+.banner .btn{
+    display: inline-block;
+    width: 194px;
+    height: 54px;
+    background: url("../images/shenglibao/botton.png") no-repeat;
+    position: absolute;
+    bottom: 55px;
+    left: 80px;
+}

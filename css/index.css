@@ -35,7 +35,7 @@
 
 /* banner -- 右侧状态 */
 .m-banner .mask-layer{
-    background: rgba(0, 0, 0, 0) url("../images/index/mask-layer-bg.png") repeat scroll 0 0;
+    background:url("../images/index/mask-layer-bg.png") repeat;
     height: 300px;
     position: absolute;
     right: 0;
@@ -357,7 +357,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    
+
 }
 
 /* 理财项目 */

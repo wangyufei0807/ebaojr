@@ -1,0 +1,45 @@
+.ui-aboutnav {
+    background-color: #f6fafd;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 241px;
+}
+.ui-aboutimg img {
+    height: 77px;
+    margin-top: -11px;
+    overflow: hidden;
+    width: 255px;
+}
+.aboutnav {
+    background-color: #f6fafd;
+    overflow: hidden;
+    width: 100%;
+}
+.aboutnav li {
+    text-align: center;
+    width: 100%;
+}
+.aboutnav li a {
+    border-bottom: 1px solid #f6fafd;
+    border-left: 3px solid #f6fafd;
+    border-top: 1px solid #f6fafd;
+    color: #2a8cc9;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    width: 100%;
+}
+.aboutnav li a:hover, .aboutnav li a.aboutnavcur {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 3px solid #ff7200;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* 新加 */
+.account-nav-son{
+    display: none;
+}

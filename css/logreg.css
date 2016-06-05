@@ -1,0 +1,320 @@
+body{
+    background: url("../images/logreg/logreg_bg.png");
+}
+.ipt-err {
+    color: #e9460b;
+    font-size: 12px;
+    left: 140px;
+    position: absolute;
+    top: 40px;
+}
+
+/* 登录注册box */
+.m-logreg .box{
+    width: 678px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m-logreg .box .tit{
+    height: 59px;
+    line-height: 59px;
+    background-color: #f5f5f5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.m-logreg .box .tit h1{
+    font-size: 24px;
+}
+.m-logreg .box .tit .link{
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.m-logreg .box .bd{
+    padding-bottom: 30px;
+}
+
+/* 表单 */
+.m-form{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+.m-form .formItem {
+    margin-bottom: 25px;
+    position: relative;
+}
+.m-form .u-ipt {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d7d8d8;
+    height: 32px;
+    padding: 7px 10px 7px 60px;
+    width: 288px;
+}
+.m-form .u-ipt:focus {
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
+.m-form .u-ipt-sm {
+    margin-right: 10px;
+    padding: 10px;
+    width: 140px;
+}
+.m-form .u-button {
+    padding: 0;
+    width: 100%;
+}
+.m-form .flink {
+    color: #e9460b;
+    float: right;
+    font-size: 12px;
+}
+.m-form .flink span {
+    color: #00afeb;
+}
+.m-form .icon-account {
+    background: url("../images/logreg/icon-account.png") no-repeat;
+    display: inline-block;
+    height: 24px;
+    left: 15px;
+    position: absolute;
+    top: 12px;
+    width: 21px;
+}
+.m-form .icon-password {
+    background: url("../images/logreg/icon-password.png") no-repeat;
+    display: inline-block;
+    height: 25px;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    width: 21px;
+}
+.m-form .icon-line {
+    background: url("../images/logreg/icon-line.png") no-repeat;
+    display: inline-block;
+    height: 40px;
+    left: 48px;
+    position: absolute;
+    top: 4px;
+    width: 1px;
+}
+.m-form .security {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.m-form .security .icon-baozhang {
+    background: url("../images/logreg/icon-ensure.png") no-repeat;
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 14px;
+}
+.m-form .login-msg {
+    color: #e9460b;
+    float: left;
+    font-size: 12px;
+}
+
+.m-login .u-btn{
+    width: 100%;
+    padding: 0px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+}
+
+/* 温馨提示 */
+.m-wxts{
+    border-top: 1px solid #dfdfdf;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: #999999;
+}
+.m-wxts p{
+    line-height: 20px;
+}
+
+
+/* 注册 */
+.ui-form{
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.ui-form .ui-ipt {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #d7d8d8;
+    height: 20px;
+    padding: 7px 10px;
+    width: 262px;
+    font-size: 12px;
+}
+.ui-form .ui-ipt:focus {
+    border: 1px solid #90c1f5;
+    box-shadow: 0 0 3px #90c1f5;
+    color: #595959;
+}
+.ui-form .ui-iptCode {
+    margin-right: 10px;
+    width: 106px;
+}
+.ui-form .formItem {
+    padding: 0 5px 25px 130px;
+    position: relative;
+}
+.ui-form .label {
+    float: left;
+    font-size: 12px;
+    margin-left: -135px;
+    padding-top: 12px;
+    text-align: right;
+    width: 130px;
+}
+.ui-form .u-btn {
+    height: 38px;
+    width: 170px;
+}
+.ui-form .required {
+    color: red;
+    font-family: SimSun;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.ui-form .getPhoneCode {
+    background: #2a8cc9 none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 111px;
+}
+#regProtocol {
+    color: #00afeb;
+    font-size: 12px;
+}
+#regProtocol a {
+    color: #00afeb;
+}
+.ui-form .security {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.ui-form .security .icon-baozhang {
+    background: rgba(0, 0, 0, 0) url("../images/logreg/icon-ensure.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    width: 14px;
+}
+.ui-form .ui-button {
+    width: 165px;
+}
+.register_message {
+    background: #f2fbfe none repeat scroll 0 0;
+    color: #999999;
+    font-size: 12px;
+    height: 90px;
+    line-height: 20px;
+    margin-left: 92px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 6px;
+    width: 395px;
+}
+.ui-form .u-btn{
+    width: 280px;
+    padding: 0px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+}
+.ui-form .refreshCode2{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #2a8cc9;
+}
+
+.m-logreg .head{
+    padding-top: 15px;
+}
+.m-logreg .head img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    margin-left: 290px;
+}
+.m-logreg .d1{
+    color: #ff7200;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+.m-logreg .d2{
+    padding-left: 200px;
+}
+.m-logreg .d2 .bao{
+    float: left;
+}
+.m-logreg .d2 .info{
+    float: left;
+    font-size: 20px;
+    margin-left: 28px;
+    width: 180px;
+    line-height: 30px;
+}
+.m-logreg .d3{
+    padding-left: 180px;
+    margin-top: 35px;
+}
+.m-logreg .d3 .a1{
+    width: 202px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.m-logreg .d3 .a2{
+    width: 102px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.m-logreg .d4{
+    padding-left: 180px;
+    padding-top: 15px;
+}
+.m-logreg .d4 a{
+    color: #2a8cc9;
+    font-size: 12px;
+}
