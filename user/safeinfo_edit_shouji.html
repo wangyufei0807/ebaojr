@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>基本信息 - 颐宝金融</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/user/common.css">
+    <link rel="stylesheet" href="../css/user/safeinfo_edit.css">
+</head>
+<body>
+<div class="editphone">
+    <form style="display: block">
+        <div class="formitem f-cb">
+            <label class="lab">原手机号码：</label>
+            <div class="ipt">
+                <input type="text" class="u-ipt disabled" value="136****6092" disabled="disabled"/>
+
+            </div>
+        </div>
+        <div class="formitem f-cb">
+            <label class="lab">短信验证码：</label>
+            <div class="ipt">
+                <input id="phonecode" type="text" class="u-ipt phonecode" placeholder="请输入验证码"/><a href="#" class="getPhoneCode">获取短信验证码</a>
+                <span class="ipt-err"><label for="phonecode" class="error">手机验证码不能为空</label></span>
+            </div>
+        </div>
+        <div class="formitem f-cb">
+            <label class="lab">登录密码：</label>
+            <div class="ipt">
+                <input id="password" type="text" class="u-ipt"/>
+                <span class="ipt-err"><label for="password" class="error">登录密码不能为空</label></span>
+            </div>
+        </div>
+        <div class="edit_phone_arrow"></div>
+        <div class="formitem f-cb">
+            <label class="lab">新手机号码：</label>
+            <div class="ipt">
+                <input id="newphone" type="text" class="u-ipt"/>
+                <span class="ipt-err"><label for="newphone" class="error">新手机号码不能为空</label></span>
+            </div>
+        </div>
+        <div class="formitem f-cb">
+            <label class="lab">短信验证码：</label>
+            <div class="ipt">
+                <input id="phonecode2" type="text" class="u-ipt phonecode" placeholder="请输入验证码"/><a href="#" class="getPhoneCode">获取短信验证码</a>
+                <span class="ipt-err"><label for="newphone" class="error">短信验证码不能为空</label></span>
+            </div>
+        </div>
+        <div class="formitem f-cb">
+            <label class="lab"></label>
+            <div class="ipt">
+                <div class="ssl">
+                    <i class="icon-ensure"></i>
+                    您的信息已使用SSL加密技术，数据传输安全
+                </div>
+            </div>
+        </div>
+        <div class="formitem f-cb" style="margin-bottom: 0px">
+            <label class="lab"></label>
+            <div class="ipt">
+                <input type="button" value="完成修改" id="tjedit" class="u-btn u-btn-orange editbtn">
+            </div>
+        </div>
+    </form>
+
+    <div class="success" style="display: none">
+        <div class="f-cb">
+            <i class="icon-duigou"></i>
+            <div class="tishi">
+                <p class="p1">恭喜您，<br/>修改绑定手机信息成功！</p>
+                <p class="p2"><span class="f-colorblue">7秒</span>后自动关闭此页面，或者<a href="#" class="f-colororange">手动关闭</a></p>
+            </div>
+        </div>
+
+        <p class="bottom">若您无法使用验证，请联系客服 <span class="f-colororange">400-111-8090</span></p>
+    </div>
+</div>
+
+
+</body>
+</html>
